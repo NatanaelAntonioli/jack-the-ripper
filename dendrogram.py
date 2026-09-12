@@ -24,7 +24,7 @@ CSV_PATH = 'jack_the_ripper_corpus.csv'
 OUTPUT_PATH = 'radial_dendrogram.png'
 MIN_DOC_FREQ = 2       # a bigram must appear in at least this many texts
 N_EXCLUDED_TOP = 8     # exclude the N most frequent bigrams (per the paper)
-COLOR_THRESHOLD_FRAC = 0.69  # fraction of max merge height used to color main clusters
+COLOR_THRESHOLD_FRAC = 0.72  # fraction of max merge height used to color main clusters
 
 # --- DASH & NODE INVALIDATION CONFIG ---
 CUSTOM_DASH_NODES = None  # Target specific Node IDs, or None for all poison leaves
